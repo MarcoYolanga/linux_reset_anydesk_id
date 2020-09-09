@@ -2,7 +2,7 @@ When you clone your linux machine in an image you also clone Anydesk's configura
 
 Run this on your clones to reset your anydesk id and password
 ```
-wget -O /tmp/reset_anydesk_id.sh https://raw.githubusercontent.com/MarcoYolanga/linux_reset_anydesk_id/master/reset_anydesk_id.sh && sudo chmod +x /tmp/reset_anydesk_id.sh && sudo /tmp/reset_anydesk_id.sh
+wget --no-cache -O /tmp/reset_anydesk_id.sh https://raw.githubusercontent.com/MarcoYolanga/linux_reset_anydesk_id/master/reset_anydesk_id.sh && sudo chmod +x /tmp/reset_anydesk_id.sh && sudo /tmp/reset_anydesk_id.sh
 ```
 
 Also restarts lightdm service to allow remote connection without reboot in Raspbian
