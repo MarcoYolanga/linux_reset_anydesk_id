@@ -1,4 +1,4 @@
-
+#!/bin/bash
 echo "Reset Anydesk v1.0"
 read -p "Your Anydesk password: " pass
 actual_id=$(anydesk --get-id)
