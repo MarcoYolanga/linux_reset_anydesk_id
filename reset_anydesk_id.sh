@@ -18,7 +18,7 @@ do
         echo -n "."
         service anydesk restart
 	echo -n
-        sleep .5
+        sleep 1
 	new_id=$(anydesk --get-id)
 done
 echo
