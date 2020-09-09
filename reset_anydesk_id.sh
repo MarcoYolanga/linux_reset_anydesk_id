@@ -17,7 +17,7 @@ while [ "$new_id" == "$actual_id" ] || [ "$new_id" == "" ] || [ "$new_id" == "SE
 do
         echo -n "."
         service anydesk restart
-	echo -n
+	echo -n "."
         sleep 1
 	new_id=$(anydesk --get-id)
 done
