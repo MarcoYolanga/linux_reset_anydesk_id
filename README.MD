@@ -4,3 +4,5 @@ Run this to reset your anydesk id and password
 ```
 wget -O /tmp/reset_anydesk_id.sh https://raw.githubusercontent.com/MarcoYolanga/linux_reset_anydesk_id/master/reset_anydesk_id.sh && sudo chmod +x /tmp/reset_anydesk_id.sh && sudo /tmp/reset_anydesk_id.sh
 ```
+
+Also resestarts lightdm service to allow remote connection without reboot in Raspbian
